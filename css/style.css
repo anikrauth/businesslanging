@@ -1,0 +1,346 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*header Css start*/
+
+#header-part {
+    padding: 10px 0px;
+}
+
+.menu>ul>li>a>.adver-btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    border: 0;
+    padding: 6px 25px;
+    background: #7f1a38;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.menu>ul>li>a>.adver-btn:hover {
+    background: transparent;
+    color: #7f1a38;
+    border: 1px solid #7f1a38;
+    transition: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Open Sans', normal;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(58, 58, 58);
+}
+
+.menu>ul>li>.underline::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #404040;
+    transition: 0.3s;
+}
+
+.menu>ul>li>.underline:hover::after {
+    width: 100%;
+}
+
+
+/*header Css end*/
+
+
+/*banner Css start*/
+
+#banner-part {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    position: relative;
+}
+
+#banner-part::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 11, 10, 0.2);
+}
+
+.banner-part-top-content .banner-part-top-content-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 63px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.banner-part-top-content .banner-part-top-content-sub-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    color: #ffffff;
+    padding-top: 6px;
+}
+
+.banner-part-bottom-content {
+    margin-top: 40px;
+}
+
+.banner-part-form {
+    background: rgba(32, 11, 10, 0.8);
+    padding: 10px 0px;
+}
+
+.banner-part-form .data-input-banner {
+    border-radius: 0;
+}
+
+.form-control {
+    width: 95%;
+    margin-left: 36px;
+}
+
+.banner-data-sub-btn {
+    background: #ae2c52;
+    border-radius: 0;
+    padding: 3px 60px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-data-sub-btn:hover {
+    color: #ffffff;
+}
+
+.banner-bottom-content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+
+/*banner Css end*/
+
+
+/*features Css start*/
+
+#features-part {
+    padding: 80px 0px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.features-part-content .features-part-content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0px 10px 0px;
+}
+
+.features-part-content .features-part-content-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 24px;
+}
+
+
+/*features Css end*/
+
+
+/*explore Css start*/
+
+#explore-part {
+    padding: 100px 0px;
+}
+
+.explore-part-content .explore-part-content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.explore-part-content .explore-part-content-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333333;
+    padding: 0px 95px 40px 95px;
+}
+
+.explore-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #7f1a38;
+    padding: 6px 55px;
+    background: none;
+    color: #7f1a38;
+    border-radius: 20px;
+}
+
+.explore-btn:hover {
+    background: #7f1a38;
+    color: #ffffff;
+}
+
+
+/*explore Css end*/
+
+
+/*discover Css start*/
+
+#discover-part {
+    padding: 40px 0px;
+    background: #32383d;
+}
+
+.discover-part-content .discover-part-content-title-area .discover-part-content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff
+}
+
+.discover-part-content .discover-part-content-btn-area .discover-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 6px 40px;
+    border-radius: 20px;
+    margin-left: -150px;
+}
+
+
+/*disvover Css end*/
+
+
+/*testimonial Css start*/
+
+#testimonial-part {
+    padding: 30px 0px;
+    background: #09bbdb;
+}
+
+.testimonial-part-content>i {
+    font-size: 30px;
+    color: #117486;
+}
+
+.testimonial-part-content .testimonial-part-content-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+    padding: 30px 74px 0px 74px;
+}
+
+.testimonial-part-content .testimonial-part-content-description>span {
+    color: #0c606e;
+    font-weight: 400;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+    background: transparent;
+    border: 2px solid #67e1f7;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    color: transparent;
+    border: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    text-align: center;
+    background: transparent;
+}
+
+.slick-dots li.slick-active {
+    background: #67e1f7;
+}
+
+
+/*testmonial Css end*/
+
+
+/*footer Css start*/
+
+#footer-part {
+    padding: 30px 0px;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+/*footer Css end*/
+
+
+/*    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;*/

@@ -1,0 +1,311 @@
+@media(max-width: 449px) {
+    #banner-part {
+        padding: 70px 0px;
+    }
+    .banner-part-bottom-content {
+        margin-top: 10px;
+    }
+    .banner-part-top-content .banner-part-top-content-title {
+        font-size: 30px;
+    }
+    .banner-part-top-content .banner-part-top-content-sub-title {
+        font-size: 11px;
+    }
+    .banner-data-sub-btn {
+        padding: 7px 28px;
+        font-size: 14px;
+    }
+    .form-control {
+        margin-left: 24px;
+    }
+    .banner-bottom-content-title {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    #features-part {
+        padding: 45px 0px;
+    }
+    .features-part-content img {
+        width: 70px;
+    }
+    .features-part-content .features-part-content-title {
+        font-size: 22px;
+        padding: 10px 0px 1px 0px;
+    }
+    .features-part-content .features-part-content-description {
+        font-size: 18px;
+        padding: 7px;
+    }
+    #explore-part {
+        padding: 40px 0px;
+    }
+    .explore-part-content .explore-part-content-title {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .explore-part-content .explore-part-content-description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 0px 0px 15px 0px;
+    }
+    .discover-part-content .discover-part-content-title-area .discover-part-content-title {
+        font-size: 17px;
+    }
+    .discover-part-content .discover-part-content-btn-area .discover-btn {
+        font-size: 13px;
+        padding: 4px 12px;
+        margin-top: -7px;
+        margin-left: 0;
+    }
+    .testimonial-part-content .testimonial-part-content-description {
+        font-size: 14px;
+        padding: 15px 0px 0px 0px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 450px) and (max-width: 575.98px) {
+    #banner-part {
+        padding: 70px 0px;
+    }
+    .banner-part-bottom-content {
+        margin-top: 10px;
+    }
+    .banner-part-top-content .banner-part-top-content-title {
+        font-size: 30px;
+    }
+    .banner-part-top-content .banner-part-top-content-sub-title {
+        font-size: 11px;
+    }
+    .banner-data-sub-btn {
+        padding: 7px 28px;
+        font-size: 14px;
+    }
+    .form-control {
+        margin-left: 24px;
+    }
+    .banner-bottom-content-title {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    #features-part {
+        padding: 45px 0px;
+    }
+    .features-part-content img {
+        width: 70px;
+    }
+    .features-part-content .features-part-content-title {
+        font-size: 22px;
+        padding: 10px 0px 1px 0px;
+    }
+    .features-part-content .features-part-content-description {
+        font-size: 18px;
+        padding: 7px;
+    }
+    #explore-part {
+        padding: 40px 0px;
+    }
+    .explore-part-content .explore-part-content-title {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .explore-part-content .explore-part-content-description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 0px 0px 15px 0px;
+    }
+    .discover-part-content .discover-part-content-title-area .discover-part-content-title {
+        font-size: 17px;
+    }
+    .discover-part-content .discover-part-content-btn-area .discover-btn {
+        font-size: 13px;
+        padding: 4px 12px;
+        margin-top: -7px;
+        margin-left: 0;
+    }
+    .testimonial-part-content .testimonial-part-content-description {
+        font-size: 14px;
+        padding: 15px 0px 0px 0px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner-part {
+        padding: 70px 0px;
+    }
+    .banner-part-bottom-content {
+        margin-top: 10px;
+    }
+    .banner-part-top-content .banner-part-top-content-title {
+        font-size: 30px;
+    }
+    .banner-part-top-content .banner-part-top-content-sub-title {
+        font-size: 11px;
+    }
+    .banner-data-sub-btn {
+        padding: 7px 6px;
+        font-size: 14px;
+    }
+    .form-control {
+        margin-left: 24px;
+    }
+    .banner-bottom-content-title {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    #features-part {
+        padding: 45px 0px;
+    }
+    .features-part-content img {
+        width: 70px;
+    }
+    .features-part-content .features-part-content-title {
+        font-size: 13px;
+        padding: 10px 0px 1px 0px;
+    }
+    .features-part-content .features-part-content-description {
+        font-size: 9px;
+        padding: 0;
+    }
+    #explore-part {
+        padding: 40px 0px;
+    }
+    .explore-part-content .explore-part-content-title {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .explore-part-content .explore-part-content-description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 0px 0px 15px 0px;
+    }
+    .discover-part-content .discover-part-content-title-area .discover-part-content-title {
+        font-size: 17px;
+    }
+    .discover-part-content .discover-part-content-btn-area .discover-btn {
+        font-size: 13px;
+        padding: 4px 20px;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+    .testimonial-part-content .testimonial-part-content-description {
+        font-size: 14px;
+        padding: 15px 0px 0px 0px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner-part {
+        padding: 70px 0px;
+    }
+    .banner-part-bottom-content {
+        margin-top: 20px;
+    }
+    .banner-part-top-content .banner-part-top-content-title {
+        font-size: 39px;
+    }
+    .banner-part-top-content .banner-part-top-content-sub-title {
+        font-size: 15px;
+    }
+    .banner-data-sub-btn {
+        padding: 6px 17px;
+        font-size: 16px;
+    }
+    .banner-bottom-content-title {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .features-part-content .features-part-content-title {
+        font-size: 18px;
+        padding: 10px 0px 5px 0px;
+    }
+    .features-part-content .features-part-content-description {
+        font-size: 10px;
+    }
+    #explore-part {
+        padding: 65px 0px;
+    }
+    .explore-part-content .explore-part-content-title {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+        color: #333333;
+        padding-bottom: 20px;
+    }
+    .explore-part-content .explore-part-content-title {
+        font-size: 38px;
+        padding-bottom: 20px;
+    }
+    .explore-part-content .explore-part-content-description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding: 0px 10px 20px 10px;
+    }
+    .discover-part-content .discover-part-content-title-area .discover-part-content-title {
+        font-size: 23px;
+    }
+    .discover-part-content .discover-part-content-btn-area .discover-btn {
+        font-size: 14px;
+        padding: 4px 27px;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+    .testimonial-part-content .testimonial-part-content-description {
+        font-size: 15px;
+        padding: 15px 50px 0px 50px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner-part {
+        padding: 80px 0px;
+    }
+    .banner-part-top-content .banner-part-top-content-title {
+        font-size: 50px;
+    }
+    .banner-part-top-content .banner-part-top-content-sub-title {
+        font-size: 18px;
+    }
+    .banner-data-sub-btn {
+        padding: 4px 38px;
+        font-size: 18px;
+    }
+    .features-part-content .features-part-content-title {
+        font-size: 20px;
+        padding: 15px 0px 8px 0px;
+    }
+    .features-part-content .features-part-content-description {
+        font-size: 14px;
+    }
+    #explore-part {
+        padding: 65px 0px;
+    }
+    .discover-part-content .discover-part-content-btn-area .discover-btn {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1200px) {}
